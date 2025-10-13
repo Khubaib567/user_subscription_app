@@ -1,5 +1,5 @@
 <script >
-  import AyatCard from "../../components/ayatOfDayCard/page.svelte";
+  // import AyatCard from "../../components/ayatOfDayCard/page.svelte";
   //   import MenuBar from "./components/MenuBar.svelte";
   // export let data;
   import { fullSurah } from "../../stores/quran";
