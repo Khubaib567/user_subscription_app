@@ -6,7 +6,7 @@
   import PrayerWidget from "../../components/prayerwidget/page.svelte";
   // import AyatOfDayCard from "../../components/ayatOfDayCard/page.svelte";
   import ContentOfTheDayCard from "../../components/contentOfTheDayCard/page.svelte";
-  import Dashboard from "../../components/dashboard/page.svelte";
+  // import Dashboard from "../../components/dashboard/page.svelte";
 
   let contentDayToGet = new Date().getDate() - 1;
 
@@ -28,7 +28,7 @@
     <div class="flex justify-center border-t-2 rounded-xl">
       <h1 class="text-4xl pl-5 pt-2 font-bold text-secondary">!السلام عليكم</h1>
     </div>
-    <Dashboard />
+    <!-- <Dashboard /> -->
     <PrayerWidget />
     <br />
     <Slider />
