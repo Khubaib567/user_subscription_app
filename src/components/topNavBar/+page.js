@@ -1,7 +1,7 @@
 import { get } from "svelte/store";
 import { msisdn, accessToken, subStatus } from "../../stores/store";
 
-export const load = async ({ fetch }: { fetch: any }) => {
+export const load = async () => {
   return {
     phoneNumber: get(msisdn),
     accessToken: get(accessToken),
