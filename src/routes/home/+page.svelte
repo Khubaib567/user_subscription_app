@@ -6,7 +6,7 @@
   import PrayerWidget from "../../components/prayerwidget/page.svelte";
   // import AyatOfDayCard from "../../components/ayatOfDayCard/page.svelte";
   import ContentOfTheDayCard from "../../components/contentOfTheDayCard/page.svelte";
-  import Dashboard from "../../components/dashboard/page.svelte";
+  import Dashboard from "../../components/timeDashboard/page.svelte";
 
   let contentDayToGet = new Date().getDate() - 1;
 
