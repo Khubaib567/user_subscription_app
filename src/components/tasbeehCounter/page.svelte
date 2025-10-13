@@ -1,11 +1,11 @@
-<script lang="ts">
-  let count: number = 0;
+<script >
+  let count = 0;
 
-  function incre(): void {
+  function incre() {
     count++;
   }
 
-  function reset(): void {
+  function reset() {
     count = 0;
   }
 </script>
@@ -28,16 +28,7 @@
 </div>
 
 <style>
-  @font-face {
-    font-family: roboto;
-    src: url(font/Roboto-Medium.ttf);
-  }
-
-  .h {
-    text-align: center;
-    font-size: 45px;
-  }
-
+ 
   .main {
     text-align: center;
   }
