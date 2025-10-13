@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import { ayatList, hadithList, isUrdu } from "../../stores/store";
 
   // import type { Actions } from "@sveltejs/kit";
