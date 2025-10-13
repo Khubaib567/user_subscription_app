@@ -5,7 +5,7 @@
 // +page.server.js
 import { error } from "@sveltejs/kit";
 import { get  } from "svelte/store"; // Import the `get` utility from svelte/store
-import { number, otp, otp, otp, subscriber } from "../../stores/store";
+import { number, otp, subscriber } from "../../stores/store";
 import { redirect } from "@sveltejs/kit";
 
 export const prerender = false;
