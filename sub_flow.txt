@@ -1,0 +1,33 @@
+ let token_value = user_verified_response.response[0].token
+
+    //  set token_value
+     token.set(token_value)
+
+    const token_status:any = await checkToken() 
+
+    // console.log(token_status.response.status)
+    if(token_status.response.status == true){
+	    // console.log(token_status)
+		
+    const sub_status:any = await doSubscription()
+
+    console.log(sub_status)
+	  if(sub_status.response[0].sub == 'true'){
+                console.log('User has subscribed!')
+                throw redirect(303,'/home_en_unsub')
+          }
+	
+	  if(sub_status.sub == 'false'){
+		console.log(sub_status.message)
+                throw error(401,{
+                    message: sub_status.message
+                })
+         }
+	 
+      }
+	
+    if(token_status.response[0].status == 'false'){
+		throw error(401,{
+                    message: 'Access Denied!'
+                })
+     }

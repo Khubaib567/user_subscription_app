@@ -1,0 +1,219 @@
+[
+  {
+    "timestamp": 1679875200000,
+    "Topic": "Jannat",
+    "Surah": 15,
+    "Ayat": 45,
+    "Limit": 3
+  },
+  {
+    "timestamp": 1679961600000,
+    "Topic": "Allah ki Azmat",
+    "Surah": 15,
+    "Ayat": 85,
+    "Limit": 3
+  },
+  {
+    "timestamp": 1680048000000,
+    "Topic": "Aqal walon ke liye nishaniyah",
+    "Surah": 16,
+    "Ayat": 12,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1680134400000,
+    "Topic": "Saabir",
+    "Surah": 16,
+    "Ayat": 41,
+    "Limit": 2
+  },
+  {
+    "timestamp": 1680220800000,
+    "Topic": "Shirk",
+    "Surah": 16,
+    "Ayat": 53,
+    "Limit": 2
+  },
+  {
+    "timestamp": 1680307200000,
+    "Topic": "Allah ka waada",
+    "Surah": 16,
+    "Ayat": 61,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1680393600000,
+    "Topic": "Rizq",
+    "Surah": 16,
+    "Ayat": 71,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1680480000000,
+    "Topic": "Allah ki naimatein",
+    "Surah": 16,
+    "Ayat": 72,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1680566400000,
+    "Topic": "Nama-e-Amaal",
+    "Surah": 17,
+    "Ayat": 13,
+    "Limit": 2
+  },
+  {
+    "timestamp": 1680652800000,
+    "Topic": "Rah-e-Raast",
+    "Surah": 17,
+    "Ayat": 15,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1680739200000,
+    "Topic": "Huqooq-ul-Ibad",
+    "Surah": 17,
+    "Ayat": 26,
+    "Limit": 2
+  },
+  {
+    "timestamp": 1680825600000,
+    "Topic": "Fasting",
+    "Surah": 2,
+    "Ayat": 184,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1680912000000,
+    "Topic": "Imaan waalon ki pehchan",
+    "Surah": 9,
+    "Ayat": 112,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1680998400000,
+    "Topic": "Takkabur",
+    "Surah": 17,
+    "Ayat": 36,
+    "Limit": 2
+  },
+  {
+    "timestamp": 1681084800000,
+    "Topic": "Ayat-ul-Kursi",
+    "Surah": 2,
+    "Ayat": 255,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1681171200000,
+    "Topic": "Insan ki tang dili",
+    "Surah": 17,
+    "Ayat": 100,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1681257600000,
+    "Topic": "Imaan aur Namaz",
+    "Surah": 2,
+    "Ayat": 42,
+    "Limit": 2
+  },
+  {
+    "timestamp": 1681344000000,
+    "Topic": "Qayamat",
+    "Surah": 2,
+    "Ayat": 47,
+    "Limit": 2
+  },
+  {
+    "timestamp": 1681430400000,
+    "Topic": "Allah ka Kalaam",
+    "Surah": 2,
+    "Ayat": 105,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1681516800000,
+    "Topic": "Allah ka Kalaam",
+    "Surah": 2,
+    "Ayat": 106,
+    "Limit": 2
+  },
+  {
+    "timestamp": 1681603200000,
+    "Topic": "Neyk Amaal",
+    "Surah": 2,
+    "Ayat": 110,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1681689600000,
+    "Topic": "Sab Jahanon Ka maalik",
+    "Surah": 2,
+    "Ayat": 115,
+    "Limit": 2
+  },
+  {
+    "timestamp": 1681776000000,
+    "Topic": "Raat aur Din",
+    "Surah": 10,
+    "Ayat": 67,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1681862400000,
+    "Topic": "Bani Israel",
+    "Surah": 10,
+    "Ayat": 93,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1681948800000,
+    "Topic": "Surah Yunus",
+    "Surah": 10,
+    "Ayat": 99,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1682035200000,
+    "Topic": "Quran-e-Mufasil",
+    "Surah": 11,
+    "Ayat": 12,
+    "Limit": 2
+  },
+  {
+    "timestamp": 1682121600000,
+    "Topic": "Dunya ki Khwahish",
+    "Surah": 11,
+    "Ayat": 15,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1682208000000,
+    "Topic": "Hazrat Nooh AS",
+    "Surah": 11,
+    "Ayat": 36,
+    "Limit": 2
+  },
+  {
+    "timestamp": 1682294400000,
+    "Topic": "Hazrat Shoaib AS",
+    "Surah": 11,
+    "Ayat": 94,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1682380800000,
+    "Topic": "Jhootay Mabood",
+    "Surah": 11,
+    "Ayat": 101,
+    "Limit": 1
+  },
+  {
+    "timestamp": 1682467200000,
+    "Topic": "Allah Ki perwi",
+    "Surah": 11,
+    "Ayat": 112,
+    "Limit": 1
+  }
+]
