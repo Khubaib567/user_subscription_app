@@ -29,7 +29,7 @@
   }
 
   // STEP 05: EXOPRT THIS FUNCTION WHENEVER WE IMPORTED THIS COMPONENT
-  export const timeTracker = setInterval(() => {
+  const timeTracker = setInterval(() => {
     // STEP 05.1 : GET THE CURRENT DATE.
     currentDateTime = new Date();
     // STEP 05.2 : GET THE NEXT PRAYER OBJECT
