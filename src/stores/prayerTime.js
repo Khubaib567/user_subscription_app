@@ -62,7 +62,9 @@ export const currentCityDailyPrayerTimeInitialValue = fromLocalStorage(
       asr : "3:40 pm",
       maghrib : "6:10 pm",
       isha : "7:23 pm",
-      hijri_date : { hd: null , hm:null , hy : null }
+      hijri_date : {hy: 1447, hm: 4, hd: 24},
+      date_str : "16-10-2025"
+
     }
   ,
 

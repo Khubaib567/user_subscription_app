@@ -26,7 +26,7 @@ export const fetchCityPrayerTime = async (cityData) => {
   // console.log(url);
   const response = await fetch(url);
   const data = await response.json();
-  // console.log("Data : ",data)
+  console.log("Data : ",data)
 
   currentCityDailyPrayerTime.set(data);
   return data;
@@ -86,6 +86,7 @@ const appendPrayerDateToTime = (time) => {
 
 // SETP 06 : FUNCTION TO GET NEXT SALAH OBJECT.
 export const getNextSalah = (currentDateTime) => {
+  // STEP 06.0 : GET THE CURRENT PRAYER TIMING BASED ON CURRENT CITY LOCATION.
   const currentPrayerSchedule = get(currentCityDailyPrayerTime);
 
   // STEP 06.1 : INITIALIZE THE PRAYERDATE WITH TIME INTO OBJECT TO GET THE NEXT SALAH DATE EPOCHS.
@@ -93,6 +94,8 @@ export const getNextSalah = (currentDateTime) => {
     // STEP 06.2 : INITIALIZE THE PRAYER PROPERTY VALUE.
     prayer: "fajr",
     // STEP 06.3:  FUNCTION TO GET TIME BASED ON DATE PARSING WITH TIME.
+      // STEP 06.3.1 : CALL 'convertTime12to24' TO CONVERT THE TIME FORMAT FROM 12 TO 24 IN ORDER TO CALCULATE THE CALCULATE EXACT TIMING.
+        // STEP 06.3.2: THAN CALL 'appendPrayerDateToTime' TO APPEND THE PRAYER DATE WITH TIME.
     time: appendPrayerDateToTime(convertTime12to24(currentPrayerSchedule.fajr)),
   };
   const currentDhuhrTime = {
@@ -174,6 +177,9 @@ const getTimeToNext = (currentDateTime, prayerTimeArray) => {
   let currentDateEpochs = Date.parse(currentDateTime);
 
   // console.log("---------------prayerTimeArray", prayerTimeArray);
+    // STEP 07.4.1 : ITERATE EACH PRAYER TIMING TO GET THE EPOCHS WHICH COMPARED WITH CURRENT DATE EPOCHS IN ORDER TO CALCULATE WHICH NEXT PRAYER HAS TO BE CALLED.
+        // STEP 07.4.2 : COMPARED THE EPOCHS TO FIND WHICH NEXT PRAYER HAS TO BE CALL.
+          // STEP 07.4.3 : THEN RETURN THIS EPOCHES VALUES IN ARRAY.
   for (let i = 0; i < prayerTimeArray.length; i++) {
       let prayerTimeEpoch = Date.parse(prayerTimeDiffArray[i].time),
        timeDiff = currentDateEpochs - prayerTimeEpoch;
