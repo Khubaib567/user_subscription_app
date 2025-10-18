@@ -12,6 +12,8 @@ const msisdnInitialValue = fromLocalStorage("msisdn", null);
 export const msisdn = writable(msisdnInitialValue);
 toLocalStorage(msisdn, "msisdn");
 
+export const otp = writable(null);
+
 const accessTokenInitialValue = fromLocalStorage("accessToken", "");
 export const accessToken = writable(accessTokenInitialValue);
 toLocalStorage(accessToken, "accessToken");

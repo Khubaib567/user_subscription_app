@@ -1,5 +1,6 @@
 <script>
   import { ayatList, hadithList, isUrdu } from "../../stores/store";
+  export let data;
 
   // import type { Actions } from "@sveltejs/kit";
   import Slider from "../../components/Slider/page.svelte";

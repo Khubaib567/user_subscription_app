@@ -1,16 +1,18 @@
-<div class="hero min-h-screen">
+<div class="hero min-h-screen ">
   <form method="POST">
-    <div class="flex justify-center grid grid-flow-col grid-rows-3 gap-4">
+    <div class="grid grid-flow-col grid-rows-3 gap-4">
       <h1>Welcome to Our App</h1>
-      <div class="text-center">
+ 
+      <div class="text-center ">
         <label class="text-xl"
           >Enter Mobile Number
+         
           <input
             id="number"
             name="number"
             type="text"
             placeholder="92 3XXXXXXXXX"
-            class="input"
+            class="input bg-white "
             required
           />
         </label>

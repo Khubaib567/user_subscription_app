@@ -3,8 +3,8 @@
   const otp = data.otp;
 </script>
 
-<form method="POST">
-  <div class="flex justify-center grid grid-flow-col grid-rows-4 gap-4">
+<form method="POST" class="flex justify-center hero min-h-screen">
+  <div class=" grid grid-flow-col grid-rows-4 gap-4">
     <h1>Welcome to Our App</h1>
     <div role="alert" class="alert alert-success">
       <svg
@@ -28,7 +28,7 @@
         id="otp"
         name="otp"
         placeholder="Enter Digits"
-        class="input"
+        class="input bg-white"
       />
     </div>
     <div class="text-center">

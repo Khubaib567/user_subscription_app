@@ -41,14 +41,14 @@
   </div>
 
   <div class="navbar-end">
-    {#if !($subStatus == "true")}
+    <!-- {#if !($subStatus == "true")}
       <button
         class="btn btn-primary text-white rounded p-1"
         on:click={() => (openSubscriptionModal = true)}
       >
         <a href="/home">Subscribe</a>
       </button>
-    {/if}
+    {/if} -->
     <!-- <label  class="btn btn-ghost btn-circle avatar"> -->
     <div class="dropdown dropdown-end">
       <button class="btn btn-ghost btn-circle avatar">

@@ -1,4 +1,5 @@
-<div class="flex justify-center grid grid-flow-col grid-rows-2 gap-4">
+<div class="flex justify-center hero min-h-screen">
+<div class=" grid grid-flow-col grid-rows-2 gap-4">
   <h1>UnSubsriber User Page</h1>
   <div class="text-center">
     <a href="/login">
@@ -6,3 +7,5 @@
     </a>
   </div>
 </div>
+</div>
+
